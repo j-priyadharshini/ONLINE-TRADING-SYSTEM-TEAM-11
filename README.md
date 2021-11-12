@@ -4,7 +4,7 @@ Online trading system is an organised and systematic process for buying
 or selling of stock. It is a website done by using python, flask, DBMS ,
 html, css, javascript.
 
-##FEATURES 
+## FEATURES 
 Register - A new user can register them self with the help of register
 option by entering username , password and their email address
 
@@ -48,37 +48,36 @@ Help - Some frequently asked FAQ's.
 A Video tutorial is given in the Online trading system for a clear
 understanding.
 
-##File Description:
+## File Description:
     
 
-##Software requirements:
-    Install the following packages
-    ###Front end
-        -flask    
-        -Python 3.7.2
-    
-    ###Back end
-        -mysql workbench
-    
-    ###libraries required
-        -flask-mysqldb
-        -flask-mail
-        -smptblib
-        -python-dotenv
-        -pandas
-        -numpy
-        -plotly
-        -yfinance
-        -matplotlib 
+## Software requirements:
+### Front end
+    -flask    
+    -Python 3.7.2
+
+### Back end
+    -mysql workbench
+
+### libraries required
+    -flask-mysqldb
+    -flask-mail
+    -smptblib
+    -python-dotenv
+    -pandas
+    -numpy
+    -plotly
+    -yfinance
+    -matplotlib 
 
     
   
     
-##How to run:
-    set FLASK_APP=app.py
-    set FLASK_DEBUG=1
-    set API_KEY=pk_75b568615f10451191750bf0413447f3
-    flask run
+## How to run:
+    -set FLASK_APP=app.py
+    -set FLASK_DEBUG=1
+    -set API_KEY=pk_75b568615f10451191750bf0413447f3
+    -flask run
 
     
 
