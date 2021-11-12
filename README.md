@@ -1,10 +1,16 @@
-# ONLINE-TRADING-SYSTEM-TEAM11
+# ONLINE-TRADING-SYSTEM-TEAM 11
 
 Online trading system is an organised and systematic process for buying
 or selling of stock. It is a website done by using python, flask, DBMS ,
 html, css, javascript.
 
-## FEATURES 
+
+ The Online Trading System is a modest project developed by a group of amateur programmers which was made possible using Python. It stays on par with almost all the major stock trading websites by having the basic functionalities of buy, sell, quote stocks and much more, with the added benefit of visualizing the trend of the stock that one buys, graphically, on a sweet UI that’s easy on eyes.
+
+
+## File Description: 
+(.html files)
+
 Register - A new user can register them self with the help of register
 option by entering username , password and their email address
 
@@ -48,7 +54,7 @@ Help - Some frequently asked FAQ's.
 A Video tutorial is given in the Online trading system for a clear
 understanding.
 
-## File Description:
+
     
 
 ## Software requirements:
