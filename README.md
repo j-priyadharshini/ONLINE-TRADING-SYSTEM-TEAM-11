@@ -87,7 +87,7 @@ understanding.
 
 
 ## VIDEO DEMO
-[OTS DEMO](https://drive.google.com/file/d/1CxIAhBIcQllMWVzu-rDMC5okwxKGDDwq/view)
+Link: [OTS DEMO](https://linktr.ee/tradeonline)
 
 
 
