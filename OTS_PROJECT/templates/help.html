@@ -1,0 +1,131 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>OTS-User-Guide</title>
+		<!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+	</head>
+	<style>
+		*{
+        box-sizing: border-box;
+        font-family: 'Dosis', sans-serif;
+        color: #000;
+    }
+    .bg{
+        background: url("https://unsplash.com/photos/wcWN29NufMQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8c3RvbmtzfHwwfHx8fDE2MzUwOTY5NjA&force=true&w=1920") no-repeat center fixed;
+        background-size: cover;
+        color: #000;
+        text-align: center;
+        font-size: larger;
+    }
+    .header{
+        text-align: center;
+        width: max-content;
+        height: min-content;
+        margin: 1% auto;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%,
+            rgba(255, 255, 255, 0.8) 100%);
+        border: 0.5px solid rgba(255, 255, 255, 1);
+        border-radius: 30px;
+    }
+    .button{
+        text-align: center;
+        margin: 10px;
+        background-color: rgba(183, 228, 199, 0.49);           
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 50px;
+    }
+    .input{
+        text-align: center;
+        margin: 10px;
+        width: 250px;
+        height: 40px;
+        background-color: lightgray;
+        color: black;
+        border: none;
+        border-radius: 50px;
+    }
+    .primary{
+        width: max-content;
+        height: max-content;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%,
+            rgba(255, 255, 255, 0.8) 100%);
+        margin: 5% auto;
+        padding: 5% auto;
+        border: 0.5px solid rgba(183, 228, 199, 0.9);
+        border-radius: 30px;
+    }
+    .primary2{
+        width: 100%;
+        height: max-content;
+        background-image:linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%,
+            rgba(255, 255, 255, 0.8) 100%);
+        margin: 5% auto;
+        padding: 5% auto;
+        border: 0.5px solid rgba(183, 228, 199, 0.9);
+        border-radius: 30px;
+    }
+    .sticky{
+        position: sticky;
+        top: 0%;
+        backdrop-filter: blur(5px);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+	#fx:hover {
+		background-color: rgba(236, 183, 9, 0.9);
+	}
+    input[type="text"], textarea {
+        background-color : rgb(249, 247, 243);
+    }
+	input[type="password"], textarea {
+        background-color : rgb(249, 247, 243);
+    }
+	</style>
+	<body style="margin: 0px 0px;" class="bg">
+        <div style="text-align: center;" class="header"><h1>&emsp;&emsp;&emsp;User Guide&emsp;&emsp;&emsp;</h1></div>
+        <br> <br> <br>
+        <div class="primary2" style="margin-top: 0px; margin-bottom: 0px; padding: 1% 10%;">
+            <h1>FAQs</h1>
+            <h2><b>How much money can I make on the practice account?</h2></b>
+<h2><b>You can't take any profit from transactions you complete on the practice account. You get virtual funds and make virtual transactions. It is intended for training purposes only. To trade using real money, you need to deposit funds to a real account. <br></b></h2>
+<h2><b>How much money can I make?</b></h2>
+<h2><b>Your success depends on your skills and patience, your chosen trading strategy, and the amount you are able to invest. We recommend watching our demo videos first, so you can make more informed transactions. Beginning traders can try out their skills and practice on the practice account. <br></b></h2>
+<h2><b>How do I switch between the practice account and the real account?</h2></b>
+<h2><b>To switch between accounts, click your balance in the upper-right corner. Make sure you are in the trade room. The panel that opens shows all your accounts: your real account and your practice account. Click an account to make it active so you can use it for trading.</b></h2>
+<h2><b>How do I top up the practice account?</h2></b>
+<h2><b>You can always top up your practice account for free if the balance falls below Rs.10,000. First, you must select this account. Then click the green Deposit button with two arrows in the upper-right corner. A window opens where you can choose which account to top up: the practice account or the real one. <br></b></h2>
+
+<h2><b>What is volatility?</h2></b>
+<h2><b>To put it simply, volatility is how much a price changes. With low volatility, changes are insignificant on the chart and the asset might expire at the same level where you opened a position. But when the chart shows high volatility, the asset's level fluctuates quickly. <br></b></h2>
+
+<h2><b>What is the minimum and the maximum investment per trade?</h2></b>
+<h2><b>The minimum investment amount for today's trading conditions can be found on the Company's trading platform/website. The maximum investment amount is Rs.1500000.
+The maximum amount on some assets may vary according to the market conditions. <br></b></h2>
+
+<h2><b>Can I trade without being verified?</h2></b>
+<br>
+It is obligatory to pass all the verification steps to be able to trade on our platform. In complying with highest standards of safety and security, we strive to make sure that it's the owner of the account who performs trading transactions and makes payments on our trading platform.</b></h2>
+<br><br>
+        </div>
+		<br><br>
+        <div class="primary2">
+            <h2><b>Demonstration of the OTS</b> </h2>
+            <br>
+            <iframe src="https://drive.google.com/file/d/1CxIAhBIcQllMWVzu-rDMC5okwxKGDDwq/preview" width="800" height="600" allow="autoplay"></iframe>
+        </div>
+        
+        <br><br>
+	</body>
+</html>
+{% endblock %}

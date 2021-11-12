@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+OTS-DELETE ACCOUNT
+{% endblock %}
+
+{% block style %}
+
+
+.input{
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    border-radius: 50px;
+}
+.button{
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(183, 228, 199, 0.49);           
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+{% endblock %}
+{% block content %}
+
+<form action="{{url_for('del_account')}}" method="POST">
+      <div class="container">
+<p> DO YOU WANT TO DELETE YOUR ACCOUNT PERMANENTLY ? </p>
+<div>
+<input id = "fx" type="submit" class = "button" value="YES" name="yes">
+    </div>
+<div>
+<input id = "fx" type="submit" class = "button" value="NO" name="no">
+    </div>
+</div>
+</form>
+
+      {% endblock %}
